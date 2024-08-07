@@ -9,7 +9,8 @@ It is a quick writedown and probably won't be the best writing style, though i s
 
 ## Required Hardware
 
-- USB-UART Converter
+- USB-UART Converter (PROG USB cant be used for UART)
+possible alternative has been suggested here https://github.com/enjoy-digital/litex/issues/2029 though i didnt test it
 - GateMate FPGA Evaluation Board
 - USB Cable to connect to the USB-B-Mini Interface of the Evalboard
 
