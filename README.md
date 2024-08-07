@@ -139,10 +139,13 @@ The Makefile, which i've stolen from the Demo Example (see: litex_bare_metal_dem
 BUILD_DIR?=../build/colognechip_gatemate_evb
 SOC_DIR=/home/{user}/Documents/litex/litex/soc/
 
+# Assuming ur using the vexriscv cpu, which is the default
+CRT_DIR=/home/{user}/Documents/litex/litex/soc/cores/cpu/vexriscv/
+
 include $(BUILD_DIR)/software/include/generated/variables.mak
 include $(SOC_DIRECTORY)/software/common.mak
 
-OBJECTS   = crt0.o main.o
+OBJECTS   = ${CRT_DIR}crt0.o main.o
 
 all: demo.bin
 
