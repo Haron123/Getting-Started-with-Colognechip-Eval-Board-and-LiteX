@@ -106,8 +106,6 @@ Here you can play around a bit if you feel like it, execute help and see the ava
 
 Now it becomes interesting, the Key to Programming this whole thing nicely will be to have a Makefile that compiles the Programm for you.  
 
-Now theres a few Issues im still having with uploading the Code, I will first show the way that works for me, and a way that is easier and might work for you.
-
 The C Code we will be working with is the following:
 
 ```C
@@ -201,6 +199,8 @@ You might also wanna change the name of the result files.
 ## Uploading the Code to the Evalboard
 
 After Compiling you will have a demo.bin, we wanna get this uploaded to the SoC of the Board
+
+Now theres a few Issues im still having with uploading the Code, I will first show the way that works for me, and a way that is easier and might work for you.
 
 ### Method 1: 
 
